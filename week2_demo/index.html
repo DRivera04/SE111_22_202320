@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Devin Rivera, the coolest" >
+    <meta name="description" content="W2D2 Bio Assignment Demo" >
+    
+    <title>W2 | Bio</title>
+
+    <!-- IN Document STYLING -->
+    <style>
+        /*in here we write with CSS */
+        /*SELECTING in CSS & JS: select specific element(s) on a page
+
+        */
+        div {
+            border: 1px solid black;
+            padding: 10px;
+            margin: 5px;
+        }
+
+        #nav, #footer {
+
+            background-color: lightgrey;
+
+        }
+
+       #saul:hover {
+        border: solid 10px;
+        width: 100%;
+        height: 100%;
+        transform: rotate3d(4,2,3, 69deg);
+        
+
+       }
+       
+
+    </style>
+
+</head>
+<body style="background-color:grey">
+
+    <div id="wrapper"><!--This is the wrapper, and it wraps around all content --> 
+    
+        <!-- HEADER -->
+        <h1>Devin Rivera</h1>
+
+        <!-- NAV -->
+            <div id="nav">
+
+                <!-- EXTERNAL LINK -->
+                <a href="https://www.meca.edu" target="_blank">Visit MECA</a>
+
+                <!-- INTERNAL LINK -->
+                <a id="page2" href="page2.html"> Next page</a>
+
+                <!-- IN PAGE JUMP LINK -->
+
+                <a href="#bio">BIO</a>
+                <a href="#schools">SCHOOLS</a>
+                <a href="#hobbies">HOBBIES</a>
+                <a href="#footer">Bottom of Page</a>
+                
+
+
+            </div>
+
+        <!-- BIO -->
+            <div id="bio">
+                <h2>About me</h2>
+                <p>Can a man still be <b>brave</b> if he’s afraid? That is the <i>only time</i> a man can be brave.A forked purple lightning bolt, on black field speckled with four-pointed stars. Winter is coming. You know nothing, Jon Snow. Pay the iron price. Unbowed, Unbent, Unbroken. It's <b><u>ten thousand miles</u></b> between Kings landing and the wall. It's ten thousand miles between Kings landing and the wall.
+                </p>
+
+                <!-- REMOTE images links -->
+
+                <img id="saul" src="https://steamuserimages-a.akamaihd.net/ugc/1811021954136916356/7E1974B61B8D02405DFE3FEBFA7527339B3D83BE/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true" alt="Saul Goodman">
+
+                <!-- RELATIVE image link -->
+                <img src="images/stormsEnd.jpg" alt="Castle in spring time" style="width: 500px;">
+
+                <hr>
+
+
+            </div>
+
+        <!-- SCHOOLS -->
+            <div id="schools">
+
+                <h2>Schools</h2>
+                
+                <ol>
+                    <li>New England Institute of Technology</li>
+                    <li>William M. Davies Career & Technical High School</li>
+                    
+                </ol>
+
+                <img src="images/meca.jpg" alt="MECA Porteous Building at dusk">
+            </div>
+
+            <hr>
+        <!-- HOBBIES -->
+            <div id="hobbies">
+
+                <h2>Hobbies</h2>
+
+                <ul>
+
+                    <li>Gym</li>
+                    <li>Airsofting</li>
+                    <li>Video Games</li>
+
+
+
+
+
+                </ul>
+
+            </div>
+
+        <!-- FOOTER -->
+            <div id="footer">
+
+                <a href="#nav">Back to top</a>
+                <br>
+                <p>&copy;D Rivera | SE111 | Winter 2023</p>
+                <br>
+                <!-- VALIDATION SS -->
+                <img src="images/indexValidation.png" alt="validation of page" style="width:100% ;"> 
+
+            </div>
+
+    </div>
+
+</body>
+</html>
