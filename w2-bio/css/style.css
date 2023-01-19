@@ -1,0 +1,38 @@
+body {
+    background-color: darkgrey;
+
+}
+
+#pcimage {
+
+width: 450px;
+border: dotted 5px black;
+
+
+
+}
+
+#schooling, #hobbies {
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 5%;
+    border: solid 5px black;
+    background-color: rgba(33, 34, 41, 0.075);
+    
+}
+
+#hobbylist {
+
+    padding-left: 25px;
+}
+
+#picgym {
+    padding: 30px;
+}
+
+#surprise:hover {
+    background-color: white;
+    color: blue;
+    
+}
