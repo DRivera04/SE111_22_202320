@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS program</title>
+
+
+</head>
+<body>
+    
+<script>
+
+var hrlyPay = prompt("Please enter your hourly pay")
+
+var hrsWorked = prompt("Please enter the amount of hours worked")
+
+Number(hrlyPay);
+
+Number(hrsWorked);
+
+console.log(`Hourly Pay: ` + hrlyPay)
+
+console.log(`Hours Worked: ` + hrsWorked)
+
+var grossPay = hrlyPay * hrsWorked
+
+var tax = grossPay * .20
+
+var net = grossPay - tax
+
+
+let grossPays = grossPay.toFixed(2)
+let taxes = tax.toFixed(2)
+let nets = net.toFixed(2)
+
+console.log("Gross Pay: " + grossPays)
+console.log(`Uncle Sam's Share` + taxes)
+console.log(`Net Pay: ` + nets)
+
+
+alert(`Gross Pay: $` + grossPays + `\n` + `Uncle Sam's Share: $` + taxes + `\n` + `Net Pay: $` + nets )
+
+
+
+
+
+</script>
+
+
+
+</body>
+</html>
